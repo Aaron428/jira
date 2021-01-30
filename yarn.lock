@@ -1156,6 +1156,13 @@
     resolve-global "1.0.0"
     yargs "^15.1.0"
 
+"@commitlint/config-conventional@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.npm.taobao.org/@commitlint/config-conventional/download/@commitlint/config-conventional-11.0.0.tgz#3fa300a1b639273946de3c3f15e1cda518333422"
+  integrity sha1-P6MAobY5JzlG3jw/FeHNpRgzNCI=
+  dependencies:
+    conventional-changelog-conventionalcommits "^4.3.1"
+
 "@commitlint/ensure@^11.0.0":
   version "11.0.0"
   resolved "https://registry.npm.taobao.org/@commitlint/ensure/download/@commitlint/ensure-11.0.0.tgz?cache=0&sync_timestamp=1610935185553&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40commitlint%2Fensure%2Fdownload%2F%40commitlint%2Fensure-11.0.0.tgz#3e796b968ab5b72bc6f8a6040076406306c987fb"
@@ -3519,13 +3526,6 @@ commander@^6.2.0:
   resolved "https://registry.npm.taobao.org/commander/download/commander-6.2.1.tgz?cache=0&sync_timestamp=1610702151695&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha1-B5LraC37wyWZm7K4T93duhEKxzw=
 
-commitlint@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.npm.taobao.org/commitlint/download/commitlint-11.0.0.tgz#a60f759b938c97c5d601c881cfe71b1d4051d219"
-  integrity sha1-pg91m5OMl8XWAciBz+cbHUBR0hk=
-  dependencies:
-    "@commitlint/cli" "^11.0.0"
-
 common-tags@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
@@ -3639,6 +3639,15 @@ conventional-changelog-angular@^5.0.0:
   integrity sha1-yXm4uSHL/iZALrPaW7/aAthlork=
   dependencies:
     compare-func "^2.0.0"
+    q "^1.5.1"
+
+conventional-changelog-conventionalcommits@^4.3.1:
+  version "4.5.0"
+  resolved "https://registry.npm.taobao.org/conventional-changelog-conventionalcommits/download/conventional-changelog-conventionalcommits-4.5.0.tgz?cache=0&sync_timestamp=1604539510618&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fconventional-changelog-conventionalcommits%2Fdownload%2Fconventional-changelog-conventionalcommits-4.5.0.tgz#a02e0b06d11d342fdc0f00c91d78265ed0bc0a62"
+  integrity sha1-oC4LBtEdNC/cDwDJHXgmXtC8CmI=
+  dependencies:
+    compare-func "^2.0.0"
+    lodash "^4.17.15"
     q "^1.5.1"
 
 conventional-commits-parser@^3.0.0:
